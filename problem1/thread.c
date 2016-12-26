@@ -63,10 +63,13 @@ int main(int argc, char *argv[]) {
       return -1;
     }
 
-    if (argc > 2 && *argv[2] == 'v')
-      printf("La réponse au problème 2 est %d\n", limite3 + limite5);
-    //  printf("La reponse est : %d\n", part3[1] + part5[1]);
+    if (argc > 2 && *argv[2] == 'v') {
 
+      printf("somme 3 : %d\n", limite3);
+      printf("somme 5 : %d\n", limite5);
+      printf("La réponse au problème 2 est %d\n", limite3 + limite5);
+      //  printf("La reponse est : %d\n", part3[1] + part5[1]);
+    }
   }
 
   else {
